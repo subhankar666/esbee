@@ -1,0 +1,121 @@
+@media (min-width:1920px){
+
+}
+
+
+@media (min-width:1440px){
+.ml-md-4, .mx-md-4 { margin-left: 0.9rem!important;}
+
+}
+
+@media only screen and (max-width:  1366px) {
+
+.nav-item{font-size: 14px;}
+.carousel-caption h1{font-size: 60px;line-height: 43px;}
+.carousel-caption p{font-size: 20px;}
+.navbar-brand img {height: 60px;}
+.button a{min-height: 34px;padding: 0px 12px;font-size: 14px;}
+.get-button a{ min-height: 60px;width: 220px;font-size: 16px;}
+.process-box h3{font-size: 26px;}
+.service-box h3{font-size: 26px;}
+.process-box p{font-size: 16px;}
+.service-box p{font-size: 16px;}
+
+}
+
+
+@media (min-width: 1200px){
+
+
+}
+@media only screen and (max-width:  767px) {
+ 
+  .nav-item:after {display: none;}
+  /*.nav-item::before {position: absolute;display: block;top: 15px;left: 0;width: 11px;height: 1px;content: "";border: none;
+    background-color: #000;vertical-align: 0;}*/
+  /*.dropdown-toggle::after {position: absolute; display: block;top: 10px;left: -23px;width: 1px;
+    height: 11px;content: "";border: none;background-color: #000;vertical-align: 0;transition: all 200ms linear;}*/
+    .nav-item .dropdown-toggle:after {display: inline-block;margin-left: 0.255em;vertical-align: 0.255em;content: "";
+    border-top: 0.3em solid;border-right: 0.3em solid transparent;border-bottom: 0;border-left: 0.3em solid transparent;}
+  .dropdown-toggle[aria-expanded="true"]::after {transform: rotate(90deg);opacity: 0;}
+  .dropdown-menu { padding: 0 !important;background-color: transparent;box-shadow: none;transition: all 200ms linear;}
+  .dropdown-toggle[aria-expanded="true"] + .dropdown-menu {margin-top: 10px !important;margin-bottom: 20px !important;}
+ /* body.dark .nav-item::before {background-color: #fff;}
+  body.dark .dropdown-toggle::after {background-color: #fff;}
+  body.dark .dropdown-menu {background-color: transparent;box-shadow: none;}*/
+ 
+}
+@media only screen and (max-width: 1024px) {
+
+.carousel-caption h1{font-size:40px;    margin-bottom: -23px;}
+  .carousel-caption p {font-size: 17px;margin-top: 20px;margin-bottom: 6px;}
+  .carousel-caption{top: 35%;left: 5%;}
+  .get-button{min-height: 47px;width: 189px;}
+    .social{display: none;}
+  /*.navbar-expand-lg .navbar-toggler {display:block;}
+  .navbar-collapse .collapse .show{ display: none; }*/
+  .spinny-words {min-width: auto;text-align: left;}
+   .banner-about h4{padding-top:8%; line-height:40px;}
+  .header{position: unset !important;}
+   .button a{height: 45px;    margin: 20px 15px;}
+   .get-button a{min-height: 60px;}
+   
+}
+
+@media only screen and (max-width:  768px) {
+
+  .carousel-caption h1{font-size:30px;}
+  .carousel-caption p {font-size: 14px;line-height: 20px;}
+ .get-button a {min-height: 39px !important;width: 65%;font-size: 14px;}
+ .services-section h2{font-size: 32px; line-height: 36px;}
+.easyprocess-section h2{font-size: 22px; line-height: 36px;}
+}
+@media only screen and (max-width: 425px){
+    .carousel {padding-top: 163px;}
+    .carousel-indicators li{top: 12px;}
+.top-part .list-inline{text-align: left;}
+    
+    .navbar-brand img { height:55px;}
+   .dropdown-item{color: black;}
+   .services-section h2{font-size: 22px; line-height: 36px;}
+    .easyprocess-section h2{font-size: 22px; line-height: 36px;}
+    .banner-about h4 {padding-top: 32%;line-height: 40px;}
+.about-page h1{font-size: 39px;line-height: 43px;}
+.about h2{font-size: 27px;line-height: 36px;}
+   
+
+}
+@media only screen and (max-width: 375px){
+.carousel {padding-top: 163px;}
+.carousel-indicators li{top: 12px;}
+.top-part .list-inline{text-align: left;}
+.services-section h2{font-size:30px; line-height: 36px;}
+.easyprocess-section h2{font-size: 30px; line-height: 36px;}
+.service-box{max-height: 350px;}
+.client-section h2{font-size:35px;line-height:38px;}
+.client .owl-nav button.owl-next{display: none;}
+.client .owl-nav button.owl-prev{display: none;}
+.client .owl-dots {text-align: center;padding-top:8px;display:block !important;}
+.banner-about h4 {padding-top: 32%;line-height: 40px;}
+.about-page h1{font-size: 39px;line-height: 43px;}
+.about h2{font-size: 27px;line-height: 36px;}
+
+}
+
+@media only screen and (max-width: 320px){
+.carousel {padding-top: 163px;}
+.carousel-indicators li{top: 12px;}
+.top-part .list-inline{text-align: left;}
+.navbar-brand img { height:40px;}
+.services-section h2{font-size: 25px; line-height: 36px;}
+.easyprocess-section h2{font-size:25px; line-height: 36px;}
+.service-box{max-height: 350px;}
+.client-section h2{font-size:25px;line-height: 38px;}
+.client .owl-nav button.owl-next{display: none;}
+.client .owl-nav button.owl-prev{display: none;}
+.client .owl-dots {text-align: center;padding-top:8px;display:block !important;}
+.banner-about h4 {padding-top: 32%;line-height: 40px;}
+.about-page h1{font-size: 39px;line-height: 43px;}
+.about h2{font-size: 27px;line-height: 36px;}
+
+}
